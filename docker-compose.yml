@@ -1,0 +1,20 @@
+version: '2'
+services:
+  api:
+    build:
+      #context: git@extramuros.ryandv.me:sandbox-tv/api.git
+      context: ./api
+    ports:
+      - '4567:4567'
+  chat-server:
+    build:
+      #context: git@extramuros.ryandv.me:sandbox-tv/chat-server.git
+      context: ./chat-server
+    ports:
+      - '3001:3001'
+  frontend:
+    build:
+      #context: git@extramuros.ryandv.me:sandbox-tv/frontend.git
+      context: ./frontend
+    ports:
+      - '8080:8080'
