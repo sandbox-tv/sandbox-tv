@@ -1,9 +1,12 @@
 [submodule "frontend"]
 	path = frontend
 	url = git@extramuros.ryandv.me:sandbox-tv/frontend.git
+	branch = master
 [submodule "chat-server"]
 	path = chat-server
 	url = git@extramuros.ryandv.me:sandbox-tv/chat-server.git
+	branch = master
 [submodule "api"]
 	path = api
 	url = git@extramuros.ryandv.me:sandbox-tv/api.git
+	branch = master
