@@ -1,0 +1,7 @@
+stages:
+  - build
+
+docker-compose:
+  stage: build
+  script:
+    - "docker-compose up"
